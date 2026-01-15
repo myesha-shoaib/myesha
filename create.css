@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#bg-image{
+    background-image: url(./blue.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    filter: blur(0px); 
+    top: 0;
+    left: 0;
+    z-index: -1;
+}  
+#content {
+    position: relative;
+    z-index: 1; 
+}
+.nav-bar{
+    display: flex;
+    gap: 70px;
+    padding: 15px;
+    margin-left: 150px;
+}
+.navbar{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.input{
+    margin-left: 600px;
+    border: 1px solid white;
+    background-image: url(./blue.webp);
+    color: aliceblue;
+    font-size: 15px;
+    text-transform: capitalize;
+    border: 2px solid white;
+    height: 30px;
+    padding: 5px;
+}
+img{
+    width: 10px;
+    height: 5px;
+    margin-left: 70px;
+}
+
+#bgimage{
+   
+    width: 1300px;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    transform: translateY(10%);
+    background: rgba(0, 0, 0, 0.45); /* ⭐ dark overlay */
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+h1{
+    color: white;
+    margin-left: 80px;
+    font-size: 46px;
+    margin-top: 5px;
+    
+}
+.welcome{
+    color: white;
+    text-transform: uppercase;
+}
+h3{
+    color: white;
+    margin-left: 80px;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+#lorem{
+    color: white;
+    font-size: 20px;
+    margin-left: 80px;
+}
+.social-icons{
+    display: flex;       
+    gap: 10px;           
+    margin-left: 80px;   
+    align-items: center;
+}
+
+.sign-in{
+    margin-left: 360px;
+    margin-top: 80px;
+}
+.email{
+    background-color: transparent;  
+    border: 1px solid white;
+    color: #ffffff !important;
+    padding: 8px 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    text-transform: uppercase;
+    width: 400px;
+}    
+.remember{
+    display: flex;
+}
+#remember{
+    color: #ffffff;
+    text-transform: capitalize;
+}
+#forget{
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-left: 180px;
+}
+#button{
+    color: #ffffff;
+    background-color: brown;
+    text-transform: capitalize;
+    width: 400px;
+    padding: 8px 10px;
+}
+#have{
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: center;
+}
